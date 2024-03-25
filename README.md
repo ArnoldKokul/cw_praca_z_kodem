@@ -21,6 +21,9 @@ Installation of dependencies:
 
 5. Install the libraries:
        pip install -r requirements.txt
+       pip install flask
+       pip install makefile
+   
 
 Run the app:
 1. While in the project catalog:
