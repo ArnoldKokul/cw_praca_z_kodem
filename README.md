@@ -23,6 +23,7 @@ Installation of dependencies:
        pip install -r requirements.txt
        pip install flask
        pip install makefile
+       pip install pylint
    
 
 Run the app:
