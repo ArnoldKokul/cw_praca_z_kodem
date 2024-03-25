@@ -1,27 +1,41 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>FlaskBlog</title>
-</head>
-<body>
-   <h1>Welcome to FlaskBlog</h1>
-</body>
-</html>
+Instructions for installation and running the app:
 
+Begin with:
+1. Make sure Python is downloaded (version 3.9 or higher). You can download the latest version from Python.org
+2. Download and install Git, available at https://git-scm.com/downloads
 
+Cloning the repository:
+1. Clone the repository to your computer:
+       git clone https://github.com/ArnoldKokul/cw_praca_z_kodem
 
-C:\Users\vdi-terminal\PycharmProjects\Laboratorium2>curl http://127.0.0.1:5000/hello
-<!doctype html>
-<html lang=en>
-<title>Redirecting...</title>
-<h1>Redirecting...</h1>
-<p>You should be redirected automatically to the target URL: <a href="http://127.0.0.1:5000/hello/">http://127.0.0.1:5000/hello/</a>. If not, click the link.
+Installation of dependencies:
+1. Open the terminal
+2. Go to project catalog:
+       cd cw_praca_z_kodem
 
+3. Create the virtual environment:
+       python -m venv venv
 
+4. Activate the venv:
+       activate
 
-C:\Users\vdi-terminal\PycharmProjects\Laboratorium2>curl http://127.0.0.1:5000/hello/Arnold
-<!doctype html>
-<title>Hello from Flask</title>
+5. Install the libraries:
+       pip install -r requirements.txt
 
-  <h1>Hello Arnold!</h1>
+Run the app:
+1. While in the project catalog:
+       python -m flask run
+
+Other information:
+1. Structure of the project should look like this:
+       cw_praca_z_kodem
+             |-- templates
+             |    |-- index.html
+             |    |-- hello.html
+             |-- app.py
+             |-- requirements.txt
+             |-- README.md
+2. Make sure to regularly update the dependencies if you add more libraries, using the command:
+       pip install -r requirements.txt
+
+If you have any questions or problems, don't hesitate to contact the authors of the project.
